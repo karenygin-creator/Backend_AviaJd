@@ -1,9 +1,6 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-
-from app.models.models import Booking, Trip
-
-
+from app.models.models import Trip
 class TripService:
     @staticmethod
     async def create_trip(db:AsyncSession,data):
@@ -14,4 +11,4 @@ class TripService:
     @staticmethod
     async def get_all(db:AsyncSession):
         result = await db.execute(select(Trip))
-        return bookings.scalars().all()
+        return result.scalars().all()
