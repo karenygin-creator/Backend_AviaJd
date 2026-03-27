@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="bookings">
-      <change afterPath="$PROJECT_DIR$/app/routers/trips.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/trip.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/trip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/trip_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/trip_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="trips" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +73,7 @@
       <workItem from="1774451653718" duration="8793000" />
       <workItem from="1774537663047" duration="8563000" />
       <workItem from="1774624160723" duration="40000" />
-      <workItem from="1774624208011" duration="3532000" />
+      <workItem from="1774624208011" duration="4128000" />
     </task>
     <task id="LOCAL-00001" summary="services">
       <option name="closed" value="true" />
@@ -98,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774548052589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="trips">
+      <option name="closed" value="true" />
+      <created>1774628302278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774628302278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="services" />
     <MESSAGE value="bookings" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookings" />
+    <MESSAGE value="trips" />
+    <option name="LAST_COMMIT_MESSAGE" value="trips" />
   </component>
 </project>

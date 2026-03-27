@@ -6,10 +6,12 @@ from app.models.models import User
 
 class UserService:
     @staticmethod
-    async def create_user(db:AsyncSession,email:str,password:str):
-        user=User(email=email,password=password)
+    async def create_user(db:AsyncSession,data):
+        user=User(**data.dict())
         db.add(user)
         await db.commit()
+        await db.refresh(user)
+        return user
     @staticmethod
     async def login(db:AsyncSession,email:str,password:str):
         result=await db.execute(select(User).where(User.email==email))
@@ -17,3 +19,19 @@ class UserService:
         if not user or user.password != password:
             return None
         return user
+    @staticmethod
+    async def get_user_by_id(db:AsyncSession,user_id:int):
+        result=await db.execute(select(User).where(User.id==user_id))
+        return result.scalar_one_or_none()
+    @staticmethod
+    async def get_user_all(db:AsyncSession):
+        result=await db.execute(select(User))
+        return result.scalars().all()
+    @staticmethod
+    async def update_user(db:AsyncSession,user_id:int,data):
+        result = await db.execute(select(User).where(User.id == user_id))
+        user = result.scalar_one_or_none()
+        if not user:
+            return None
+        if data.email != None:
+            user.email = data.email
