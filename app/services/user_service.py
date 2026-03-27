@@ -33,5 +33,23 @@ class UserService:
         user = result.scalar_one_or_none()
         if not user:
             return None
-        if data.email != None:
+        if data.email is not None:
             user.email = data.email
+        if data.password is not None:
+            user.password = data.password
+        if data.full_name is not None:
+            user.full_name = data.full_name
+        if data.phone is not None:
+            user.phone = data.phone
+        await db.commit()
+        await db.refresh(user)
+        return user
+    @staticmethod
+    async def delete_user(db:AsyncSession,user_id:int):
+        result = await db.execute(select(User).where(User.id == user_id))
+        user = result.scalar_one_or_none()
+        if not user:
+            return None
+        await db.delete(user)
+        await db.commit()
+        return user

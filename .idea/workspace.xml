@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="trips" />
+    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="users">
+      <change afterPath="$PROJECT_DIR$/app/routers/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +79,7 @@
       <workItem from="1774451653718" duration="8793000" />
       <workItem from="1774537663047" duration="8563000" />
       <workItem from="1774624160723" duration="40000" />
-      <workItem from="1774624208011" duration="4128000" />
+      <workItem from="1774624208011" duration="8950000" />
     </task>
     <task id="LOCAL-00001" summary="services">
       <option name="closed" value="true" />
@@ -99,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774628302278</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="users">
+      <option name="closed" value="true" />
+      <created>1774629718305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774629718305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +123,7 @@
     <MESSAGE value="services" />
     <MESSAGE value="bookings" />
     <MESSAGE value="trips" />
-    <option name="LAST_COMMIT_MESSAGE" value="trips" />
+    <MESSAGE value="users" />
+    <option name="LAST_COMMIT_MESSAGE" value="users" />
   </component>
 </project>
