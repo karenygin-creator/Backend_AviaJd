@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="services">
-      <change afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
+    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="bookings">
+      <change afterPath="$PROJECT_DIR$/app/routers/trips.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/trip.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/trip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/trip_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/trip_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -24,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "karenygin-creator"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;karenygin-creator&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/karenygin-creator/Backend_AviaJd.git",
-    "accountId": "29182230-5107-41a9-bfbf-334648c848b8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/karenygin-creator/Backend_AviaJd.git&quot;,
+    &quot;accountId&quot;: &quot;29182230-5107-41a9-bfbf-334648c848b8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -75,7 +78,9 @@
       <option name="presentableId" value="Default" />
       <updated>1774451652622</updated>
       <workItem from="1774451653718" duration="8793000" />
-      <workItem from="1774537663047" duration="8046000" />
+      <workItem from="1774537663047" duration="8563000" />
+      <workItem from="1774624160723" duration="40000" />
+      <workItem from="1774624208011" duration="3532000" />
     </task>
     <task id="LOCAL-00001" summary="services">
       <option name="closed" value="true" />
@@ -85,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774547117736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bookings">
+      <option name="closed" value="true" />
+      <created>1774548052589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774548052589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="services" />
-    <option name="LAST_COMMIT_MESSAGE" value="services" />
+    <MESSAGE value="bookings" />
+    <option name="LAST_COMMIT_MESSAGE" value="bookings" />
   </component>
 </project>
