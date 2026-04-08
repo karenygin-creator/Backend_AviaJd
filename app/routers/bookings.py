@@ -24,3 +24,15 @@ async def delete_booking(booking_id:int,db:AsyncSession=Depends(get_db)):
         "message": "Booking cancelled",
         "booking": booking
     }
+@router.get("/user/{user_id}")
+async def get_user_booking(user_id:int,db:AsyncSession=Depends(get_db)):
+    return await BookingService.get_user_bookings(db,user_id)
+@router.post("/{booking_id}/pay")
+async def pay_booking(booking_id:int,db:AsyncSession=Depends(get_db)):
+    booking = await BookingService.pay_booking(db,booking_id)
+    if not booking:
+        raise HTTPException(status_code=404, detail="Booking not found")
+    return {
+        "message": "Booking paid",
+        "booking": booking
+    }

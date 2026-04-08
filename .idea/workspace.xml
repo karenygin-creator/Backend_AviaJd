@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="users++">
+    <list default="true" id="30646efd-16d7-47db-9d45-cceb49f9e78e" name="Changes" comment="bookings+">
+      <change afterPath="$PROJECT_DIR$/app/routers/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routers/bookings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/bookings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/booking_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
@@ -80,7 +81,7 @@
       <workItem from="1774624208011" duration="11175000" />
       <workItem from="1774797342766" duration="170000" />
       <workItem from="1774797753175" duration="4000" />
-      <workItem from="1775661058418" duration="4507000" />
+      <workItem from="1775661058418" duration="8161000" />
     </task>
     <task id="LOCAL-00001" summary="services">
       <option name="closed" value="true" />
@@ -122,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774634390616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bookings+">
+      <option name="closed" value="true" />
+      <created>1775666239522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775666239522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +143,7 @@
     <MESSAGE value="trips" />
     <MESSAGE value="users" />
     <MESSAGE value="users++" />
-    <option name="LAST_COMMIT_MESSAGE" value="users++" />
+    <MESSAGE value="bookings+" />
+    <option name="LAST_COMMIT_MESSAGE" value="bookings+" />
   </component>
 </project>

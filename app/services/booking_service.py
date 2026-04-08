@@ -35,3 +35,14 @@ class BookingService:
     async def get_user_bookings(db:AsyncSession,user_id:int):
         result=await db.execute(select(Booking).where(Booking.user_id==user_id))
         return result.scalars().all()
+    @staticmethod
+    async def pay_booking(db:AsyncSession,booking_id:int):
+        result = await db.execute(select(Booking).where(Booking.id == booking_id))
+        booking = result.scalar_one_or_none()
+        if not booking:
+            return None
+        booking.is_paid=True
+        booking.status = "paid"
+        await db.commit()
+        await db.refresh(booking)
+        return booking
