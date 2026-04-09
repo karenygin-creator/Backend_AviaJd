@@ -8,9 +8,9 @@ from database import get_db
 
 
 router = APIRouter(prefix="/trip",tags=["Trips"])
-@router.post("/")
-async def create_trip(data:TripCreate,db:AsyncSession=Depends(get_db)):
-    return await TripService.create_trip(db, data)
+# @router.post("/")
+# async def create_trip(data:TripCreate,db:AsyncSession=Depends(get_db)):
+#     return await TripService.create_trip(db, data)
 
 @router.get("/")
 async def get_trips(
